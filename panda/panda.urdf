@@ -6,13 +6,13 @@
             <geometry>
                 <mesh filename="meshes/link0.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_grey"/>
         </visual>
         <collision>
             <geometry>
                 <mesh filename="meshes/link0.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_grey"/>
         </collision>
         <inertial>
             <mass value="0" />
@@ -25,13 +25,13 @@
             <geometry>
                 <mesh filename="meshes/link1.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_red"/>
         </visual>
         <collision>
             <geometry>
                 <mesh filename="meshes/link1.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_red"/>
         </collision>
         <inertial>
             <mass value="2.74" />
@@ -52,13 +52,13 @@
             <geometry>
                 <mesh filename="meshes/link2.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_grey"/>
         </visual>
         <collision>
             <geometry>
                 <mesh filename="meshes/link2.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_grey"/>
         </collision>
         <inertial>
             <mass value="2.74" />
@@ -79,13 +79,13 @@
             <geometry>
                 <mesh filename="meshes/link3.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_red"/>
         </visual>
         <collision>
             <geometry>
                 <mesh filename="meshes/link3.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_red"/>
         </collision>
         <inertial>
             <mass value="2.38" />
@@ -106,13 +106,13 @@
             <geometry>
                 <mesh filename="meshes/link4.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_grey"/>
         </visual>
         <collision>
             <geometry>
                 <mesh filename="meshes/link4.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_grey"/>
         </collision>
         <inertial>
             <mass value="2.38" />
@@ -133,13 +133,13 @@
             <geometry>
                 <mesh filename="meshes/link5.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_red"/>
         </visual>
         <collision>
             <geometry>
                 <mesh filename="meshes/link5.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_red"/>
         </collision>
         <inertial>
             <mass value="2.74" />
@@ -160,13 +160,13 @@
             <geometry>
                 <mesh filename="meshes/link6.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_grey"/>
         </visual>
         <collision>
             <geometry>
                 <mesh filename="meshes/link6.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_grey"/>
         </collision>
         <inertial>
             <mass value="1.55" />
@@ -187,13 +187,13 @@
             <geometry>
                 <mesh filename="meshes/link7.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_red"/>
         </visual>
         <collision>
             <geometry>
                 <mesh filename="meshes/link7.stl"/>
             </geometry>
-            <material name="panda_white"/>
+            <material name="panda_red"/>
         </collision>
         <inertial>
             <mass value="0.54" />
@@ -209,7 +209,10 @@
         <axis xyz="0 0 1"/>
         <limit effort="12" lower="-2.8973" upper="2.8973" velocity="2.6100"/>
     </joint>
-    <material name="panda_white">
+    <material name="panda_red">
         <color rgba="0.5. 0.2. 0.2. 1."/>
+    </material>
+    <material name="panda_grey">
+        <color rgba="0.2. 0.2. 0.5. 1."/>
     </material>
 </robot>
